@@ -27,7 +27,8 @@
 html, body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    background: #03a9f0;
+    /*background: #03a9f0;*/
+    background: #fff;
     height: auto;
 }
 
@@ -4306,7 +4307,7 @@ ul.profile-contact-menu {
 }
 
 #sidebar {
-    min-width: 200px;
+    
     background: linear-gradient(#1F1C2C, #928DAB);
     color: #fff;
     position: fixed;
@@ -4316,8 +4317,7 @@ ul.profile-contact-menu {
 }
 
     #sidebar.active {
-        min-width: 80px;
-        max-width: 80px;
+       
         text-align: center;
     }
 
