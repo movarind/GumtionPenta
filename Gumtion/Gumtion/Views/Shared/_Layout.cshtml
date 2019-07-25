@@ -9,7 +9,117 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <div style=" position: absolute ; background:red; width: 15%; height: 100%; left: 0%; top: 0%"></div>
+    <div style="background: #303030; position: absolute ; width: 15%; height: auto; left: 0%; top: 0%">
+        <a href="#">
+            <img src="~/img/Gumballs.gif" alt="Gumball Machine" style=" display: block; margin: 0 auto; width: 80%; height: 20%; border-radius: 50%;" />
+        </a>
+        <h3 style="text-align: center; color:white">Gumtion System</h3>
+        <ul class="nav navbar-nav left-sidebar-menu-pro">
+            <li class="nav-item">
+                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><i class="fa big-icon fa-home"></i> <span class="mini-dn">Home</span> <span class="indicator-right-menu mini-dn"><i class="fa indicator-mn fa-angle-left"></i></span></a>
+                <!-- Add link to homepage -->
+            </li>
+            <li class="nav-item">
+                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><i class="fa big-icon fa-group"></i> <span class="mini-dn">Supplier Management</span> <span class="indicator-right-menu mini-dn"><i class="fa indicator-mn fa-angle-left"></i></span></a>
+                <div role="menu" class="dropdown-menu left-menu-dropdown animated flipInX">
+                    <a class="dropdown-item">Manage Supplier</a>
+                    <a class="dropdown-item">Manage Supplier Type</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"> <span class="mini-dn"><i class="fa fa-shopping-cart"></i> Supplier Order Management</span> <span class="indicator-right-menu mini-dn"><i class="fa indicator-mn fa-angle-left"></i></span></a>
+                <div role="menu" class="dropdown-menu left-menu-dropdown animated flipInX">
+                    <a class="dropdown-item">Place Supplier Order</a>
+                    <a class="dropdown-item">Recieve Supplier Order</a>
+                    <a class="dropdown-item">Return Supplier Order</a>
+                    <a class="dropdown-item">Search Suplier Order</a>
+                    <a class="dropdown-item">Place Supplier Back Order</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><i class="fa fa-address-card-o" aria-hidden="true"></i> <span class="mini-dn">Employee Management</span> <span class="indicator-right-menu mini-dn"><i class="fa indicator-mn fa-angle-left"></i></span></a>
+                <div role="menu" class="dropdown-menu left-menu-dropdown animated flipInX">
+                    <a class="dropdown-item">Clock-In/Clock-Out</a>
+                    <a class="dropdown-item">Manage Employee</a>
+                    <a class="dropdown-item">Manage Employee Type</a>
+                    <a href="project-list.html" class="dropdown-item">Manage Employee Access Level</a>
+
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><i class="fa fa-cube" aria-hidden="true"></i> <span class="mini-dn"> Raw Material Managemnt </span> <span class="indicator-right-menu mini-dn"><i class="fa indicator-mn fa-angle-left"></i></span></a>
+                <div role="menu" class="dropdown-menu left-menu-dropdown chart-left-menu-std animated flipInX">
+                    <a class="dropdown-item">Manage Raw Material</a>
+                    <a class="dropdown-item">Checkout Raw Material</a>
+                    <a class="dropdown-item">Reconcile Raw Material</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><i class="fa fa-cogs" aria-hidden="true"></i> <span class="mini-dn">Production Management</span> <span class="indicator-right-menu mini-dn"><i class="fa indicator-mn fa-angle-left"></i></span></a>
+                <div role="menu" class="dropdown-menu left-menu-dropdown animated flipInX">
+                    <a class="dropdown-item">Manage Production</a>
+                    <a class="dropdown-item">Search Job</a>
+                    <a class="dropdown-item">Manage Production Recipe</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><i class="fa fa-th" aria-hidden="true"></i> <span class="mini-dn">Inventory Managemnt</span> <span class="indicator-right-menu mini-dn"><i class="fa indicator-mn fa-angle-left"></i></span></a>
+                <div role="menu" class="dropdown-menu left-menu-dropdown form-left-menu-std animated flipInX">
+                    <a class="dropdown-item">Manage Inventory</a>
+                    <a class="dropdown-item">Checkout Invenotry</a>
+                    <a class="dropdown-item">Invenotry Stock Take</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><i class="fa fa-id-card-o" aria-hidden="true"></i> <span class="mini-dn">Customer Management</span> <span class="indicator-right-menu mini-dn"><i class="fa indicator-mn fa-angle-left"></i></span></a>
+                <div role="menu" class="dropdown-menu left-menu-dropdown apps-left-menu-std animated flipInX">
+                    <a class="dropdown-item">Manage Customer</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><i class="fa fa-file-text" aria-hidden="true"></i><span class="mini-dn"> Customer Order Management</span> <span class="indicator-right-menu mini-dn"><i class="fa indicator-mn fa-angle-left"></i></span></a>
+                <div role="menu" class="dropdown-menu left-menu-dropdown pages-left-menu-std animated flipInX">
+                    <a class="dropdown-item">Generate Quotation</a>
+                    <a class="dropdown-item">Search Quotation</a>
+                    <a class="dropdown-item">Manage Order</a>
+                    <a class="dropdown-item">Return Order</a>
+                    <a class="dropdown-item">Capture Payment</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><i class="fa fa-truck" aria-hidden="true"></i> <span class="mini-dn">Delivery Management</span> <span class="indicator-right-menu mini-dn"><i class="fa indicator-mn fa-angle-left"></i></span></a>
+                <div role="menu" class="dropdown-menu left-menu-dropdown chart-left-menu-std animated flipInX">
+                    <a class="dropdown-item">Assign Delivery</a>
+                    <a class="dropdown-item">Delivery Status</a>
+                    <a class="dropdown-item">Search Delivery</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><i class="fa fa-car" aria-hidden="true"></i> <span class="mini-dn">Vehicle Management</span> <span class="indicator-right-menu mini-dn"><i class="fa indicator-mn fa-angle-left"></i></span></a>
+                <div role="menu" class="dropdown-menu left-menu-dropdown chart-left-menu-std animated flipInX">
+                    <a class="dropdown-item">Manage Vehicle</a>
+                    <a class="dropdown-item">Manage Vehicle Type</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><i class="fa fa-line-chart" aria-hidden="true"></i> <span class="mini-dn">Reporting</span> <span class="indicator-right-menu mini-dn"><i class="fa indicator-mn fa-angle-left"></i></span></a>
+                <div role="menu" class="dropdown-menu left-menu-dropdown chart-left-menu-std animated flipInX">
+                    <a href="bar-charts.html" class="dropdown-item">Generate Sales Report</a>
+                    <a href="line-charts.html" class="dropdown-item">Generate Outstanding Customer Payment Report</a>
+                    <a href="area-charts.html" class="dropdown-item">Generate Stock On Hand Report</a>
+                    <a class="dropdown-item">Generate Outstanding Supplier Payment Report</a>
+                    <a class="dropdown-item">Generate Payroll Report</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><i class="fa fa-cog" aria-hidden="true"></i> <span class="mini-dn">Maintanence</span> <span class="indicator-right-menu mini-dn"><i class="fa indicator-mn fa-angle-left"></i></span></a>
+                <div role="menu" class="dropdown-menu left-menu-dropdown chart-left-menu-std animated flipInX">
+                    <a href="bar-charts.html" class="dropdown-item">Backup</a>
+                    <a href="line-charts.html" class="dropdown-item">Restore</a>
+                </div>
+            </li>
+        </ul>
+    </div>
     <div style=" position: absolute ; background: blue; width: 85%; height: 10%; right: 0%; top: 0% "></div>
     <div style="">
         @RenderBody()
